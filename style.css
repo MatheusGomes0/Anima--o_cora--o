@@ -1,0 +1,20 @@
+body {
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.coracao{
+    font-size: 10rem;
+    animation: coracao .7s infinite alternate linear;
+}
+
+@keyframes coracao{
+     from{
+      transform: scale(.7);
+    } to {
+      transform: scale(1) ;
+    }
+}
